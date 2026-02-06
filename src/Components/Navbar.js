@@ -1,6 +1,7 @@
 import {FaShoppingCart} from "react-icons/fa"
 import { useSelector } from "react-redux";
 import { NavLink } from "react-router-dom";
+import logo from "../Assets/logo.png";
 
 const Navbar = () => {
 
@@ -12,7 +13,7 @@ const Navbar = () => {
 
         <NavLink to="/">
           <div className="ml-5">
-          <img src="../logo.png" className="h-14"/>
+          <img src={logo}className="h-14" alt="logo"/>
           </div>
         </NavLink>
 
